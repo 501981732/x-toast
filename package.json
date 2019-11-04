@@ -1,6 +1,6 @@
 {
   "name": "web-component-xtoast",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a toast web component used by LitElement",
   "repository": "https://github.com/501981732/x-toast.git",
   "main": "lib/index.min.js",
