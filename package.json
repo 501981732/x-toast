@@ -1,0 +1,31 @@
+{
+  "name": "web-component-xtoast",
+  "version": "0.0.1",
+  "description": "a toast web component used by LitElement",
+  "repository": "https://github.com/501981732/x-toast.git",
+  "main": "lib/index.min.js",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "web component",
+    "toast",
+    "lit-element"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack.prod.config.js --mode production"
+  },
+  "author": "gblw",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "latest",
+    "lit-element": "latest"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
